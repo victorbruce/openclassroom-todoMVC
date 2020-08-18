@@ -81,8 +81,8 @@
 		callback = callback || function () {};
 
 		// Generate an ID
-			var newId = new Date();
-			/* Conflic of Id */
+			var newId = Date.now();
+			/* Conflict of Id */
 
 	    // var charset = "0123456789";
 
